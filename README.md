@@ -5,6 +5,7 @@
 ## C++
 
 *   Integer Type & Fixed-width Integer Type(C++11)
+*   Ellipsis(생략 부호)
 
 ## C#
 
