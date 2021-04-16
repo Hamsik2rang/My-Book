@@ -10,7 +10,8 @@ Ellipsis는 단어 뜻대로 Parameter를 **생략**할 수 있도록 해 주는
 #include <iostream>
 #include <cstdarg>	//for Ellipsis
 
-double FindAverage(int dummy,int count, ...)
+// C-Style 생략 부호 형태(int dummy, int count, ...)도 가능
+double FindAverage(int dummy,int count...)
 {
 	double sum = 0;
 	// 가변인수들을 저장할 가변 리스트 생성
