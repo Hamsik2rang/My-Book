@@ -5,7 +5,7 @@
 ## C++
 
 *   Integer Type & Fixed-width Integer Type(C++11)
-*   Ellipsis(생략 부호)
+*   [Ellipsis(생략 부호)](./C++/Ellipsis(생략_부호).md)
 
 ## C#
 
@@ -13,7 +13,7 @@
 
 ## Math
 
-*   ### Discrete Mathmatics
+*   ### Discrete Mathematics
 
 *   ### Linear Algebra
 
