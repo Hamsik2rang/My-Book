@@ -83,3 +83,13 @@ public:
 
 *   **Elapsed()** 함수의 구현부를 보면, 호출 시점의 시간을 endTime에 저장한 후 **chrono::duration_cast<>** 를 이용해 Time Interval을 캐스팅하는데, 앞서 1초당 1로 카운팅하도록 지정한 duration, 즉 second_t를 탬플릿 인자로 넣음으로써 나노초 단위를 초 단위로 변경한다.
 
+---
+
+>   *참고 링크(Reference)* 
+>
+>   [Date and time utilities - en.cpppreference.com](https://en.cppreference.com/w/cpp/chrono)
+>
+>   [std::ratio - en.cppreference.com](https://en.cppreference.com/w/cpp/numeric/ratio/ratio)
+
+
+
