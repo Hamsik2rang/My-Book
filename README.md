@@ -9,7 +9,7 @@
 
 ### OOP
 
-*   [Static members](작성예정)
+*   [Static members](./C++/Static_Members.md)
 
 ### Testing
 
