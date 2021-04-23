@@ -159,7 +159,7 @@ int temp()
 
 int main()
 {
-    // 주소 연산자(&) 없이 사용하는 C-Style도 가능
+    // int (*fptr)() = temp; 도 가능
     int (*fptr)() = &temp;
     
     // C++11의 function 객체의 경우
@@ -185,7 +185,7 @@ class Test
 
 int main()
 {
-    // C-Style 함수 포인터 사용 불가. 함수와 함수포인터에 어떤 클래스의 함수를 가리키는지 범위를 명시해야 함.
+    // & 없이 함수 포인터 사용 불가. 함수와 함수포인터에 어떤 클래스의 함수를 가리키는지 범위를 명시해야 함.
     int (Test::*fptr)() = &Test::temp;
     
     // C++11의 function 객체의 경우 - Test* 는 Test 타입 인스턴스의 this 포인터를 의미함.
@@ -219,11 +219,11 @@ class Test
 
 int main()
 {
-    // 함수 포인터 변수에 범위를 명시할 필요가 없음. 특정 인스턴스의 this 포인터를 안 쓰니까.
+    // int (*fptr)() = Test::temp; 도 가능
     int (*fptr)() = &Test::temp;
     
     // C++11의 function 객체의 경우
-    std::function<int()> fobj = &Test::temp;
+    std::function<int()> fobj = Test::temp;
     
     return 0;
 }
