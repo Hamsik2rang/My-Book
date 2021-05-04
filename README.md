@@ -10,6 +10,7 @@
 ### OOP
 
 *   [Static members](./C++/Static_Members.md)
+*   [Functor(함수 객체)](./C++/Functor(함수_객체).md)
 
 ### Testing
 
