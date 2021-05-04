@@ -10,7 +10,7 @@
 class Accumulator
 {
 private:
-	int _counter = 0;
+    int _counter = 0;
 public:
     int operator()(int i)
     {
