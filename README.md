@@ -43,7 +43,7 @@
 
 *   Array VS List
 *   ArrayList - LinkedList - Circular LinkedList - Double LinkedList
-*   [해시 테이블(Hash Table)](./Data_Structure/해시_테이블(Hash_Table,Hash_Map).md)
+*   [해시 테이블(Hash Table - 이동완료)](./Data_Structure/해시_테이블(Hash_Table,Hash_Map).md)
 
 ## Algorithm
 
