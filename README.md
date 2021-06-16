@@ -1,6 +1,6 @@
 # My-Book📖
 
-[개인 블로그](https://velog.io/@hamsik2rang)에 작성될 글들의 초안이 저장되는 곳입니다.
+[개인 블로그](https://velog.io/@hamsik2rang)에 작성될 글들을 잘 정리해 링크한 곳입니다(또는 초안 파일을 올리기도 합니다).
 
 ## C
 
