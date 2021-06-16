@@ -65,3 +65,11 @@
 
 ## Software Development Methodology
 
+## Reading
+
+*   ### A Tour of C++
+
+    [Section 1](https://velog.io/@hamsik2rang/Reading-A-Tour-of-Cpp-2nd-Edition-Section-1)
+
+    [Section 2](https://velog.io/@hamsik2rang/Reading-A-Tour-of-Cpp-2nd-Edition-Section-2)
+
